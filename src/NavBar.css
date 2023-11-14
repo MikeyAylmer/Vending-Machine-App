@@ -1,0 +1,23 @@
+.NavBar {
+    background-color: lightgrey;
+    text-align: center;
+    font-weight: bold;
+    display: inline-block;
+}
+
+.NavBar a {
+    padding: 0.5em 0;
+    width: 10em;
+    display: inline-block;
+    color: purple;
+    text-decoration: none;
+}
+
+.NavBar a:hover {
+    background-color: grey;
+    color: purple !important;
+}
+
+.NavBar a.active {
+    color: plum;
+}
